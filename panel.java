@@ -58,7 +58,7 @@ public class panel extends JPanel implements KeyListener, Runnable{
             System.out.println("eaten");
             newApple();
 
-            int[] pos = {snake.get(snake.size()-1)[0]+1, snake.get(snake.size()-1)[1]};
+            int[] pos = {snake.get(snake.size()-1)[0]/*+1*/, snake.get(snake.size()-1)[1]};
             snake.add(snake.size(), pos);
         }
     }
